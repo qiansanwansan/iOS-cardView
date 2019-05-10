@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61029C4F22842E2700B71EBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61029C4E22842E2700B71EBD /* AppDelegate.m */; };
+		61029C5222842E2700B71EBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61029C5122842E2700B71EBD /* ViewController.m */; };
+		61029C5522842E2700B71EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61029C5322842E2700B71EBD /* Main.storyboard */; };
+		61029C5722842E2800B71EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61029C5622842E2800B71EBD /* Assets.xcassets */; };
+		61029C5A22842E2800B71EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61029C5822842E2800B71EBD /* LaunchScreen.storyboard */; };
+		61029C5D22842E2800B71EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61029C5C22842E2800B71EBD /* main.m */; };
+		61029C6B22842E4600B71EBD /* FYCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61029C6522842E4600B71EBD /* FYCardView.m */; };
+		61029C6C22842E4600B71EBD /* FYButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61029C6622842E4600B71EBD /* FYButtonView.m */; };
+		61029C6F22842EBB00B71EBD /* UIView+FYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61029C6E22842EBB00B71EBD /* UIView+FYView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61029C4A22842E2700B71EBD /* FYCardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYCardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61029C4D22842E2700B71EBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61029C4E22842E2700B71EBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61029C5022842E2700B71EBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61029C5122842E2700B71EBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61029C5422842E2700B71EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61029C5622842E2800B71EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61029C5922842E2800B71EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61029C5B22842E2800B71EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61029C5C22842E2800B71EBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61029C6522842E4600B71EBD /* FYCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYCardView.m; sourceTree = "<group>"; };
+		61029C6622842E4600B71EBD /* FYButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYButtonView.m; sourceTree = "<group>"; };
+		61029C6822842E4600B71EBD /* FYCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYCardView.h; sourceTree = "<group>"; };
+		61029C6922842E4600B71EBD /* FYButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYButtonView.h; sourceTree = "<group>"; };
+		61029C6D22842EBB00B71EBD /* UIView+FYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYView.h"; sourceTree = "<group>"; };
+		61029C6E22842EBB00B71EBD /* UIView+FYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61029C4722842E2700B71EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61029C4122842E2700B71EBD = {
+			isa = PBXGroup;
+			children = (
+				61029C4C22842E2700B71EBD /* FYCardViewDemo */,
+				61029C4B22842E2700B71EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61029C4B22842E2700B71EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61029C4A22842E2700B71EBD /* FYCardViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61029C4C22842E2700B71EBD /* FYCardViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				61029C6322842E4600B71EBD /* FYCardView */,
+				61029C4D22842E2700B71EBD /* AppDelegate.h */,
+				61029C4E22842E2700B71EBD /* AppDelegate.m */,
+				61029C5022842E2700B71EBD /* ViewController.h */,
+				61029C5122842E2700B71EBD /* ViewController.m */,
+				61029C5322842E2700B71EBD /* Main.storyboard */,
+				61029C5622842E2800B71EBD /* Assets.xcassets */,
+				61029C5822842E2800B71EBD /* LaunchScreen.storyboard */,
+				61029C5B22842E2800B71EBD /* Info.plist */,
+				61029C5C22842E2800B71EBD /* main.m */,
+			);
+			path = FYCardViewDemo;
+			sourceTree = "<group>";
+		};
+		61029C6322842E4600B71EBD /* FYCardView */ = {
+			isa = PBXGroup;
+			children = (
+				61029C6D22842EBB00B71EBD /* UIView+FYView.h */,
+				61029C6E22842EBB00B71EBD /* UIView+FYView.m */,
+				61029C6822842E4600B71EBD /* FYCardView.h */,
+				61029C6522842E4600B71EBD /* FYCardView.m */,
+				61029C6922842E4600B71EBD /* FYButtonView.h */,
+				61029C6622842E4600B71EBD /* FYButtonView.m */,
+			);
+			path = FYCardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61029C4922842E2700B71EBD /* FYCardViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61029C6022842E2800B71EBD /* Build configuration list for PBXNativeTarget "FYCardViewDemo" */;
+			buildPhases = (
+				61029C4622842E2700B71EBD /* Sources */,
+				61029C4722842E2700B71EBD /* Frameworks */,
+				61029C4822842E2700B71EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYCardViewDemo;
+			productName = FYCardViewDemo;
+			productReference = 61029C4A22842E2700B71EBD /* FYCardViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61029C4222842E2700B71EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "冯宇的Mac mini";
+				TargetAttributes = {
+					61029C4922842E2700B71EBD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 61029C4522842E2700B71EBD /* Build configuration list for PBXProject "FYCardViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61029C4122842E2700B71EBD;
+			productRefGroup = 61029C4B22842E2700B71EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61029C4922842E2700B71EBD /* FYCardViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61029C4822842E2700B71EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61029C5A22842E2800B71EBD /* LaunchScreen.storyboard in Resources */,
+				61029C5722842E2800B71EBD /* Assets.xcassets in Resources */,
+				61029C5522842E2700B71EBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61029C4622842E2700B71EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61029C6F22842EBB00B71EBD /* UIView+FYView.m in Sources */,
+				61029C6B22842E4600B71EBD /* FYCardView.m in Sources */,
+				61029C5222842E2700B71EBD /* ViewController.m in Sources */,
+				61029C5D22842E2800B71EBD /* main.m in Sources */,
+				61029C6C22842E4600B71EBD /* FYButtonView.m in Sources */,
+				61029C4F22842E2700B71EBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61029C5322842E2700B71EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61029C5422842E2700B71EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61029C5822842E2800B71EBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61029C5922842E2800B71EBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61029C5E22842E2800B71EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61029C5F22842E2800B71EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61029C6122842E2800B71EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZHGANGY34;
+				INFOPLIST_FILE = FYCardViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tezhizhineng.FYCardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61029C6222842E2800B71EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZHGANGY34;
+				INFOPLIST_FILE = FYCardViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tezhizhineng.FYCardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61029C4522842E2700B71EBD /* Build configuration list for PBXProject "FYCardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61029C5E22842E2800B71EBD /* Debug */,
+				61029C5F22842E2800B71EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61029C6022842E2800B71EBD /* Build configuration list for PBXNativeTarget "FYCardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61029C6122842E2800B71EBD /* Debug */,
+				61029C6222842E2800B71EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61029C4222842E2700B71EBD /* Project object */;
+}
